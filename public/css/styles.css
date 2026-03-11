@@ -1,41 +1,32 @@
-* {
-    margin: 0;
-
+*{
+    margin:0px
 }
-
-.header {
+.header{
     display: flex;
     justify-content: space-between;
     background-color: teal;
-    color: white;
-    padding: 10px;
+    color:white;
+    padding:10px
 }
 
-.header li {
+.header li{
     display: inline-block;
     padding: 5px;
     font-size: 20px;
 }
-
-.footer {
+.footer{
     background-color: silver;
     padding: 5px;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;    
 }
-
 .row {
     display: flex;
     /* justify-content: space-around; */
     flex-wrap: wrap;
 }
-
-.box {
+.box{
     margin: 5px;
     padding: 5px;
-    border: 1px solid gray;
+    border:1px solid gray;
     border-radius: 5px;
-
+    
 }
